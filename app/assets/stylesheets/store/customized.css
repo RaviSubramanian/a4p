@@ -1,0 +1,42 @@
+nav#taxonomies.sidebar-item ul li{
+    list-style-type: none;
+}
+
+
+.mainMenuBar{
+    color:white;
+    font-size: 26px;
+    padding-right: 45px;
+    text-decoration: none;
+}
+
+.mainMenuBar:hover{
+    color: #ff9600;
+    font-size: 26px;
+    padding-right: 45px;
+    text-decoration: none;
+}
+
+ul#mainMenuBar li{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 26px;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

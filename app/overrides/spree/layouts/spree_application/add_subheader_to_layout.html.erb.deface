@@ -1,0 +1,16 @@
+<!-- insert_before '#wrapper' -->
+<!-- sequence :after => 'unwrap_header_from_container_class' -->
+
+  <div id="subheader">
+    <div class="container">
+      <div class="subheader-wrapper">
+
+        <ul id="mainMenuBar" class="inline">
+            <li><%= link_to Spree.t(:Dogs), spree.root_path, :class => "mainMenuBar" %></span></li>
+            <li><%= link_to Spree.t(:Cats), spree.root_path, :class => "mainMenuBar" %></li>
+            <li><%= link_to Spree.t(:New_Arrivals), spree.root_path, :class => "mainMenuBar" %></li>
+            <li><%= link_to Spree.t(:Top_Selling), spree.root_path, :class => "mainMenuBar" %></li>
+        </ul>
+      </div>
+    </div>
+  </div>
