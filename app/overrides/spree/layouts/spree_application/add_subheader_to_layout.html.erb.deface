@@ -4,12 +4,12 @@
   <div id="subheader">
     <div class="container">
       <div class="subheader-wrapper">
-
-        <ul id="mainMenuBar" class="inline">
-            <li><%= link_to Spree.t(:Dogs), spree.root_path, :class => "mainMenuBar" %></span></li>
-            <li><%= link_to Spree.t(:Cats), spree.root_path, :class => "mainMenuBar" %></li>
-            <li><%= link_to Spree.t(:New_Arrivals), spree.root_path, :class => "mainMenuBar" %></li>
-            <li><%= link_to Spree.t(:Top_Selling), spree.root_path, :class => "mainMenuBar" %></li>
+        <br>
+        <ul id="mainMenuBar" class="linkEffects inline">
+            <li><%= link_to Spree.t(:Dogs), spree.products_path, :class => "mainMenuBarItem" %></span></li>
+            <li><%= link_to Spree.t(:Cats), spree.products_path, :class => "mainMenuBarItem" %></li>
+            <li><%= link_to Spree.t(:New_Arrivals), spree.products_path, :class => "mainMenuBarItem" %></li>
+            <li><%= link_to Spree.t(:Top_Selling), spree.products_path, :class => "mainMenuBarItem" %></li>
         </ul>
       </div>
     </div>

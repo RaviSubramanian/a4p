@@ -2,29 +2,53 @@ nav#taxonomies.sidebar-item ul li{
     list-style-type: none;
 }
 
+#products{
+    max-width: 700px;
+}
 
-.mainMenuBar{
+ul#mainMenuBar li a{
+    text-decoration: none;
     color:white;
     font-size: 26px;
     padding-right: 45px;
-    text-decoration: none;
 }
 
-.mainMenuBar:hover{
-    color: #ff9600;
-    font-size: 26px;
-    padding-right: 45px;
+ul#mainMenuBar li a:hover{
+    /*color: #ff9600;*/
     text-decoration: none;
+    color: #e45353;
+    text-shadow: 1px 1px 5px #e45353;
 }
 
-ul#mainMenuBar li{
+ul#mainMenuBar li.current a{
+    /*color: #ff9600;*/
     text-decoration: none;
-    list-style-type: none;
-    font-size: 26px;
-    color:white;
+    color: #ff00ec;
+    text-shadow: 1px 1px 5px #ffffff;
+    border-bottom: 1px solid #e7e7e7;
 }
 
+nav#taxonomies li{list-style-type: none;border-bottom: 1px solid #e7e7e7; font-size: 25px;}
+nav#taxonomies li a{color: cornflowerblue}
+nav#taxonomies li a:hover{color: black}
+nav#taxonomies li.current a{color: black}
 
+
+.original{
+
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+.strikeThroughPrice{
+    font-size: 15px;
+    color : black;
+    text-decoration: line-through;
+}
+
+.productTitle{
+    font-size: 25px;
+}
 
 
 
