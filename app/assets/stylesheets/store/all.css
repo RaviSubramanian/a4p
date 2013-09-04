@@ -10,3 +10,18 @@
  *= require_tree .
  *= require store/spree_fancy
 */
+
+#subheader .subheader-wrapper {
+    padding: 0px, 0px;
+}
+
+custom-Padding{
+    padding: 0px, 0px;
+    color: white;
+    overflow: hidden;
+}
+
+.taxonomy-root{
+    font-size: 30px;
+    color: red;
+}

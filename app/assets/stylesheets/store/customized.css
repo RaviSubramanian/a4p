@@ -9,28 +9,28 @@ nav#taxonomies.sidebar-item ul li{
 ul#mainMenuBar li a{
     text-decoration: none;
     color:white;
-    font-size: 26px;
-    padding-right: 45px;
+    font-size: 22px;
+
 }
 
 ul#mainMenuBar li a:hover{
     /*color: #ff9600;*/
     text-decoration: none;
-    color: #e45353;
-    text-shadow: 1px 1px 5px #e45353;
+    text-shadow: 1px 1px 5px rgba(255, 92, 92, 0);
+    border-top: 5px solid #ff9600;
 }
 
 ul#mainMenuBar li.current a{
-    /*color: #ff9600;*/
-    text-decoration: none;
-    color: #ff00ec;
-    text-shadow: 1px 1px 5px #ffffff;
-    border-bottom: 1px solid #e7e7e7;
+
 }
 
-nav#taxonomies li{list-style-type: none;border-bottom: 1px solid #e7e7e7; font-size: 25px;}
-nav#taxonomies li a{color: cornflowerblue}
-nav#taxonomies li a:hover{color: black}
+.mainMenuBarItem{
+    padding-right: 45px;
+}
+
+nav#taxonomies li{list-style-type: none;}
+nav#taxonomies li a{color: #50A2F3; font-size: 30px;}
+nav#taxonomies li a:hover{color: black; border-top: 5px solid #FFF;}
 nav#taxonomies li.current a{color: black}
 
 
@@ -41,8 +41,9 @@ nav#taxonomies li.current a{color: black}
 }
 
 .strikeThroughPrice{
-    font-size: 15px;
-    color : black;
+    font-family: helvetica;
+    font-size: 18px;
+    color : #3fb8b6;
     text-decoration: line-through;
 }
 
